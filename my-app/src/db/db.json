@@ -1,0 +1,254 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "nav_logo": "nav_logo.png",
+            "image": "home_image_1.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 2,
+            "nav_logo": "nav_logo.png",
+            "image": "home_image_2.png",
+            "title": "Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere."
+        },
+        {
+            "id": 3,
+            "nav_logo": "nav_logo.png",
+            "image": "home_image_3.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 4,
+            "nav_logo": "nav_logo.png",
+            "image": "home_image_4.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 5,
+            "nav_logo": "nav_logo.png",
+            "image": "home_image_5.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 6,
+            "nav_logo": "nav_logo.png",
+            "image": "home_image_6.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 7,
+            "nav_logo": "nav_logo.png",
+            "image": "about_image_1.png",
+            "logo": "logo_user.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 8,
+            "nav_logo": "nav_logo.png",
+            "image": "about_image_1.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 9,
+            "nav_logo": "nav_logo.png",
+            "image": "services_image_1.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 10,
+            "nav_logo": "nav_logo.png",
+            "image": "services_image_2.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 11,
+            "nav_logo": "nav_logo.png",
+            "image": "services_image_3.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 12,
+            "nav_logo": "nav_logo.png",
+            "image": "services_image_4.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 13,
+            "nav_logo": "nav_logo.png",
+            "image": "ourTeams_image_1.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 14,
+            "nav_logo": "nav_logo.png",
+            "image": "user_image_1.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 15,
+            "nav_logo": "nav_logo.png",
+            "image": "user_image_2.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 16,
+            "nav_logo": "nav_logo.png",
+            "image": "user_image_3.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 17,
+            "nav_logo": "nav_logo.png",
+            "image": "user_image_4.png",
+            "logo": "logo_user.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 18,
+            "nav_logo": "nav_logo.png",
+            "image": "user_image_5.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 19,
+            "nav_logo": "nav_logo.png",
+            "image": "user_image_6.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 20,
+            "nav_logo": "nav_logo.png",
+            "image": "user_image_7.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 21,
+            "nav_logo": "nav_logo.png",
+            "image": "user_image_8.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 22,
+            "nav_logo": "nav_logo.png",
+            "image": "portfolio_image_1.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 23,
+            "nav_logo": "nav_logo.png",
+            "image": "portfolio_image_2.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 24,
+            "nav_logo": "nav_logo.png",
+            "image": "portfolio_image_3.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 25,
+            "nav_logo": "nav_logo.png",
+            "image": "portfolio_image_4.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 26,
+            "nav_logo": "nav_logo.png",
+            "image": "portfolio_image_5.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 27,
+            "nav_logo": "nav_logo.png",
+            "image": "room_image_1.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 28,
+            "nav_logo": "nav_logo.png",
+            "image": "room_image_2.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 29,
+            "nav_logo": "nav_logo.png",
+            "image": "room_image_3.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 30,
+            "nav_logo": "nav_logo.png",
+            "image": "room_image_4.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 31,
+            "nav_logo": "nav_logo.png",
+            "image": "room_image_5.png",
+            "title": "lalalalla"
+        },
+        {
+            "id": 32,
+            "nav_logo": "nav_logo.png",
+            "image": "room_image_6.png",
+            "title": "lalalalla"
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "logo": "logo_user.png",
+            "name": "Arga Danaan",
+            "job": "CEO of Dananz"
+        },
+        {
+            "id": 2,
+            "logo": "user_image_1.png",
+            "name": "Shoo Phar Dhie",
+            "job": "CEO"
+        },
+        {
+            "id": 3,
+            "logo": "user_image_2.png",
+            "name": "Shoo Phar Dhie",
+            "job": "CEO"
+        },
+        {
+            "id": 4,
+            "logo": "user_image_3.png",
+            "name": "Shoo Phar Dhie",
+            "job": "CEO"
+        },
+        {
+            "id": 5,
+            "logo": "user_image_4.png",
+            "name": "Shoo Phar Dhie",
+            "job": "CEO"
+        },
+        {
+            "id": 6,
+            "logo": "user_image_5.png",
+            "name": "Shoo Phar Dhie",
+            "job": "CEO"
+        },
+        {
+            "id": 7,
+            "logo": "user_image_6.png",
+            "name": "Shoo Phar Dhie",
+            "job": "CEO"
+        },
+        {
+            "id": 8,
+            "logo": "user_image_7.png",
+            "name": "Shoo Phar Dhie",
+            "job": "CEO"
+        },
+        {
+            "id": 9,
+            "logo": "user_image_8.png",
+            "name": "Shoo Phar Dhie",
+            "job": "CEO"
+        }
+    ]
+}

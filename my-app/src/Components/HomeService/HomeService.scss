@@ -1,0 +1,66 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  width: 883px;
+  height: 467px;
+  position: absolute;
+  top: 120rem;
+  left: 7.4rem;
+  right: 317px;
+  background-color: #fff;
+  .service_ {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .h3_line {
+      width: 516px;
+      margin-left: 20px;
+    }
+  }
+
+  .about_service {
+    margin-top: 20px;
+
+    .service_content {
+      h1 {
+        margin-bottom: 25px;
+      }
+
+      p {
+        width: 470px;
+        height: 87px;
+        color: #888;
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  .uls_service {
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+
+        h3 {
+          & > * + * {
+            margin-left: 20px;
+          }
+        }
+
+        .array {
+          width: 32px;
+          height: 32px;
+          flex-shrink: 0;
+          margin-right: 40px;
+        }
+      }
+    }
+  }
+}

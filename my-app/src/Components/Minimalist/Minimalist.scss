@@ -1,0 +1,89 @@
+.top_minimalist {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  .top_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-weight: 900;
+    }
+    p {
+      width: 410px;
+      margin-top: 40px;
+      margin-bottom: 53px;
+      text-align: center;
+    }
+  }
+  .row_images {
+    display: flex;
+    flex-direction: column;
+
+    .room_image {
+      margin-bottom: 100px;
+    }
+
+    .two_div {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 82px;
+
+      .overview {
+        .spans {
+          display: flex;
+          justify-content: flex-start;
+          color: #999;
+          margin-top: 50px;
+          & > * + * {
+            margin-left: 80px;
+          }
+        }
+      }
+
+      p {
+        width: 518px;
+        color: #999;
+        margin: 25px 0;
+      }
+    }
+  }
+  .button_images_row {
+    .wrapper {
+      display: grid;
+      width: 100%;
+      // grid-template-columns: repeat(2, 1fr);
+      // grid-template-rows: repeat(3);
+      grid-template-areas:
+        "one two"
+        "there there"
+        "four five  ";
+      grid-template-columns: 1fr;
+
+      .buttom_images:nth-child(1) {
+        grid-area: one;
+        width: 560px;
+      }
+      .buttom_images:nth-child(2) {
+        grid-area: two;
+        width: 560px;
+      }
+      .buttom_images:nth-child(3) {
+        grid-area: there;
+        width: 100%;
+      }
+      .buttom_images:nth-child(4) {
+        grid-area: four;
+        width: 560px;
+        width: 100%;
+      }
+      .buttom_images:nth-child(5) {
+        grid-area: five;
+        width: 560px;
+      }
+
+      grid-gap: 24px;
+    }
+  }
+}
