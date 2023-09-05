@@ -5,11 +5,11 @@ import Hr from "./../hr"
 
 export default function Header() {
 
-    const [product, setProduct] = useState([])
+    const [products, setProducts] = useState([])
 
     useEffect(() => {
         axios.get(`http://localhost:9000/products`)
-            .then(res => setProduct(res.data))
+            .then(res => setProducts(res.data))
             .catch(err => console.log(err))
     }, [])
     return (
@@ -29,12 +29,12 @@ export default function Header() {
                             </div>
                         </div>
                         <div className='header_row'>
-                            {product.slice(0, 1).map(product => {
+                            {products.slice(0, 1).map(products => {
                                 return (
-                                    <React.Fragment key={product.id}>
+                                    <React.Fragment key={products.id}>
                                         <div className="header_product">
                                             <div className="header_image">
-                                                <img src={process.env.PUBLIC_URL + "/images/" + product.image} alt="" />
+                                                <img src={process.env.PUBLIC_URL + "/images/" + products.image} alt="" />
                                             </div>
                                             <div className="header_image_about">
                                                 <div className="completed">
