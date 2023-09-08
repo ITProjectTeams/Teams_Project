@@ -1,7 +1,10 @@
 import React from 'react'
+import ServicesHeader from "../Components/Services/header/header.jsx"
 
 export default function ServicesPg() {
   return (
-    <div>Services</div>
+    <div>
+      <ServicesHeader />
+    </div>
   )
 }

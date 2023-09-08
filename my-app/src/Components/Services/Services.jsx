@@ -13,7 +13,8 @@ export default function Services() {
       .catch(err => console.log(err))
   }, [])
   return (
-    <>
+    <React.Fragment>
+      
       <div className="servicee">
         <div className="container">
           <div className="service_row">
@@ -30,6 +31,6 @@ export default function Services() {
           </div>
         </div>
       </div>
-    </>
+    </React.Fragment>
   )
 }
