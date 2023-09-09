@@ -1,0 +1,83 @@
+main {
+  .top_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 115px;
+    p {
+      margin-top: 40px;
+      margin-bottom: 50px;
+      width: 420px;
+      text-align: center;
+    }
+  }
+  .contact_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 100px;
+    margin-bottom: 40px;
+    .label {
+      display: flex;
+      flex-direction: column;
+      padding: 0 28px;
+      span {
+        margin: 10px 0;
+      }
+      input {
+        border: 1px solid #999;
+        width: 52.6rem;
+        height: 62px;
+        padding: 20px 30px;
+      }
+    }
+    .top_inputs {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      .input_text {
+        display: flex;
+        flex-direction: column;
+        span {
+          margin: 10px 0;
+        }
+        input {
+          border: 1px solid #999;
+          width: 413px;
+          height: 62px;
+          padding: 20px 30px;
+        }
+      }
+    }
+    .comment {
+      display: flex;
+      flex-direction: column;
+      margin: 0 30px;
+      span {
+        margin: 10px 0;
+      }
+      input {
+        width: 839px;
+        height: 178px;
+        padding: 20px 30px 132px;
+      }
+    }
+  }
+  .contact_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+      padding: 10px 32px;
+      border: none;
+      color: #fff;
+      background-color: #2c3878;
+      margin-bottom: 100px;
+      transition: ease-out 0.4s;
+      &:hover {
+        color: #000;
+        background-color: #fff;
+      }
+    }
+  }
+}
