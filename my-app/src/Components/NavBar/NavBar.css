@@ -1,0 +1,32 @@
+nav {
+  margin-bottom: 3rem;
+}
+nav .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+nav .nav .nav_menu > * + * {
+  margin-left: 75px;
+}
+nav .nav .nav_menu .nav_links {
+  color: #000;
+  text-decoration: none;
+  transition: ease-out 0.4s;
+}
+nav .nav .nav_menu .nav_links:hover {
+  font-weight: 600;
+}
+nav .nav .nav_menu .nav_btn {
+  width: 8rem;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #2c3878;
+  transition: ease-out 0.2s;
+}
+nav .nav .nav_menu .nav_btn:hover {
+  color: #000;
+  background-color: #ABAFC9;
+}/*# sourceMappingURL=NavBar.css.map */

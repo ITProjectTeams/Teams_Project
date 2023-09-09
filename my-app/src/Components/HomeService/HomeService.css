@@ -1,0 +1,53 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  width: 883px;
+  height: 467px;
+  position: absolute;
+  top: 120rem;
+  left: 7.4rem;
+  right: 317px;
+  background-color: #fff;
+}
+.service .service_ {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.service .service_ .h3_line {
+  width: 516px;
+  margin-left: 20px;
+}
+.service .about_service {
+  margin-top: 20px;
+}
+.service .about_service .service_content h1 {
+  margin-bottom: 25px;
+}
+.service .about_service .service_content p {
+  width: 470px;
+  height: 87px;
+  color: #888;
+  margin-bottom: 40px;
+}
+.service .uls_service ul {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.service .uls_service ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.service .uls_service ul li h3 > * + * {
+  margin-left: 20px;
+}
+.service .uls_service ul li .array {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  margin-right: 40px;
+}/*# sourceMappingURL=HomeService.css.map */

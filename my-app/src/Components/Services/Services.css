@@ -1,0 +1,13 @@
+.servicee {
+  margin-top: 23rem;
+  margin-bottom: 160px;
+  z-index: 0;
+}
+.servicee .service_ .service_row {
+  position: relative;
+}
+.servicee .service_ .service_row .div_image .service_image {
+  width: 1076px;
+  height: 682.518px;
+  flex-shrink: 0;
+}/*# sourceMappingURL=Services.css.map */

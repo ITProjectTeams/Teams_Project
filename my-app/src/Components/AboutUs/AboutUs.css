@@ -1,0 +1,63 @@
+.about {
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+.about .top_about {
+  position: relative;
+}
+.about .top_about .user_logo_ {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.about .top_about .about_h3 {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.about .top_about .about_h3 .h3_line {
+  position: absolute;
+  width: 529px;
+  left: 90px;
+}
+.about .top_about .about_p {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.about .top_about .about_p p {
+  font-size: 36px;
+}
+.about .top_about .header_image_about_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+.about .top_about .header_image_about_row .about_card_image .about_image {
+  width: 100%;
+}
+.about .top_about .header_image_about_row .about_card_content {
+  width: 12rem;
+  height: auto;
+  color: rgb(132, 137, 138);
+  margin-left: 94px;
+}
+.about .top_about .header_image_about_row .about_card_content p {
+  font-size: 18px;
+}
+.about .top_about .header_image_about_row .about_card_content button {
+  margin-top: 40px;
+  border: none;
+  color: #fff;
+  display: inline-flex;
+  padding: 14px 32px;
+  align-items: flex-start;
+  background-color: #2C3878;
+  font-weight: 800;
+  transition: all 0.4s;
+  gap: 10px;
+}
+.about .top_about .header_image_about_row .about_card_content button:hover {
+  color: #000;
+  background-color: #566093;
+}/*# sourceMappingURL=AboutUs.css.map */

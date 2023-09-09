@@ -1,0 +1,64 @@
+.material {
+  margin-bottom: 120px;
+  height: 24.2rem;
+}
+.material .materials {
+  display: flex;
+  justify-content: space-between;
+}
+.material .materials .materials_content {
+  display: flex;
+  flex-direction: column;
+}
+.material .materials .materials_content .top_line {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.material .materials .materials_content .top_line .h3_line {
+  width: 440px;
+  margin-left: 20px;
+}
+.material .materials .materials_content h1 {
+  width: 340px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.material .materials .materials_content p {
+  width: 490px;
+  color: #888;
+  margin-bottom: 20px;
+}
+.material .materials .materials_content button {
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid #000;
+  text-align: center;
+  transition: ease-out 0.4s;
+}
+.material .materials .materials_content button:hover {
+  color: #fff;
+  border: none;
+  background-color: #2c3878;
+}
+.material .materials .materials_images_row {
+  display: flex;
+  flex-direction: row;
+}
+.material .materials .materials_images_row .materials_image .image_top {
+  position: absolute;
+  width: 18rem;
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  flex-shrink: 0;
+  top: 252rem;
+  left: 675px;
+}
+.material .materials .materials_images_row .materials_images {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 11rem;
+}/*# sourceMappingURL=MaterialMenyu.css.map */

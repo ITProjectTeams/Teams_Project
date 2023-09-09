@@ -1,0 +1,94 @@
+.button_bar {
+  padding: 40px 0;
+  background-color: #2c3878;
+  margin-bottom: 120px;
+  margin-top: 125px;
+}
+.button_bar .top_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button_bar .top_bar .bar_h1 {
+  width: 610px;
+  color: #fff;
+}
+.button_bar .top_bar .bar_content p {
+  width: 430px;
+  color: #d9d9d9;
+  margin-bottom: 20px;
+}
+.button_bar .top_bar .bar_content button {
+  display: inline-flex;
+  padding: 14px 32px;
+  align-items: flex-start;
+  border: none;
+  gap: 10px;
+  transition: ease-in-out 0.2s;
+}
+.button_bar .top_bar .bar_content button:hover {
+  color: #fff;
+  background-color: #2c3878;
+}
+
+.button_bar_ {
+  margin-bottom: 85px;
+}
+.button_bar_ .about_to {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button_bar_ .about_to .about_ {
+  display: flex;
+  flex-direction: column;
+}
+.button_bar_ .about_to .about_ .about_image {
+  margin-bottom: 22px;
+}
+.button_bar_ .about_to .about_ .about_image .button_logo {
+  width: auto;
+}
+.button_bar_ .about_to .about_ h1 {
+  width: 480px;
+}
+.button_bar_ .about_to .input_follows {
+  display: flex;
+  flex-direction: column;
+}
+.button_bar_ .about_to .input_follows label {
+  width: 25rem;
+  padding-right: 10rem;
+  border-bottom: 1px solid;
+  padding: 15px 0;
+}
+.button_bar_ .about_to .input_follows label input {
+  width: 20rem;
+  border: none;
+  padding: 10px 0;
+}
+.button_bar_ .about_to .input_follows .follows {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 30px;
+  margin-right: 100px;
+}
+.button_bar_ .about_to .input_follows .follows .follow_images {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  width: 20px;
+}
+.button_bar_ .about_to .input_follows .follows .follow_images > * + * {
+  margin-left: 10px;
+}
+.button_bar_ .about_to .input_follows .follows .follow_images .folllow_image {
+  width: 2rem;
+  padding: 5px;
+  border-radius: 20px;
+  transition: ease-out 0.3s;
+}
+.button_bar_ .about_to .input_follows .follows .follow_images .folllow_image:hover {
+  background-color: #afafaf;
+}/*# sourceMappingURL=ButtonBar.css.map */

@@ -1,0 +1,72 @@
+.top_minimalist {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.top_minimalist .top_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top_minimalist .top_header h1 {
+  font-weight: 900;
+}
+.top_minimalist .top_header p {
+  width: 410px;
+  margin-top: 40px;
+  margin-bottom: 53px;
+  text-align: center;
+}
+.top_minimalist .row_images {
+  display: flex;
+  flex-direction: column;
+}
+.top_minimalist .row_images .room_image {
+  margin-bottom: 100px;
+}
+.top_minimalist .row_images .two_div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 82px;
+}
+.top_minimalist .row_images .two_div .overview .spans {
+  display: flex;
+  justify-content: flex-start;
+  color: #999;
+  margin-top: 50px;
+}
+.top_minimalist .row_images .two_div .overview .spans > * + * {
+  margin-left: 80px;
+}
+.top_minimalist .row_images .two_div p {
+  width: 518px;
+  color: #999;
+  margin: 25px 0;
+}
+.top_minimalist .button_images_row .wrapper {
+  display: grid;
+  width: 100%;
+  grid-template-areas: "one two" "there there" "four five  ";
+  grid-template-columns: 1fr;
+  grid-gap: 24px;
+}
+.top_minimalist .button_images_row .wrapper .buttom_images:nth-child(1) {
+  grid-area: one;
+  width: 560px;
+}
+.top_minimalist .button_images_row .wrapper .buttom_images:nth-child(2) {
+  grid-area: two;
+  width: 560px;
+}
+.top_minimalist .button_images_row .wrapper .buttom_images:nth-child(3) {
+  grid-area: there;
+  width: 100%;
+}
+.top_minimalist .button_images_row .wrapper .buttom_images:nth-child(4) {
+  grid-area: four;
+  width: 560px;
+  width: 100%;
+}
+.top_minimalist .button_images_row .wrapper .buttom_images:nth-child(5) {
+  grid-area: five;
+  width: 560px;
+}/*# sourceMappingURL=Minimalist.css.map */
