@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Contact.scss"
+import ContactLocation from '../ContactLocation/ContactLocation'
 
 export default function Contact() {
   return (
@@ -37,6 +38,7 @@ export default function Contact() {
           <div className="contact_btn">
             <button>Send Massage</button>
           </div>
+          <ContactLocation />
         </div>
       </main>
     </>)
