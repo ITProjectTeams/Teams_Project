@@ -1,10 +1,10 @@
 import React from 'react'
-import ServicesHeader from "../Components/Services/header/header.jsx"
+import Services from '../Components/Services/Services'
 
 export default function ServicesPg() {
   return (
-    <div>
-      <ServicesHeader />
-    </div>
+    <React.Fragment>
+      <Services />
+    </React.Fragment>
   )
 }

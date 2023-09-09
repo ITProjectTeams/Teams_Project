@@ -250,5 +250,80 @@
             "name": "Shoo Phar Dhie",
             "job": "CEO"
         }
+    ],
+
+    "OurTeams": [
+        {
+            "id": 1,
+            "nav_logo": "OurTeams_image_1.png",
+            "image": "OurTeams_image_1.png",
+            "title": "lalalalla",
+            "name": "Shoo Phar Dhie",
+            "job": "CEO"
+        },
+        {
+            "id": 2,
+            "nav_logo": "user_image_1.png",
+            "image": "user_image_1.png",
+            "title": "lalalalla",
+            "name": "Shoo Phar Dhie",
+            "job": "CEO"
+        },
+        {
+            "id": 3,
+            "nav_logo": "user_image_2.png",
+            "image": "user_image_2.png",
+            "title": "lalalalla",
+            "name": "Shoo Phar Dhie",
+            "job": "CEO"
+        },
+        {
+            "id": 4,
+            "nav_logo": "user_image_3.png",
+            "image": "user_image_3.png",
+            "title": "lalalalla",
+            "name": "Shoo Phar Dhie",
+            "job": "CEO"
+        },
+        {
+            "id": 5,
+            "nav_logo": "user_image_4.png",
+            "image": "user_image_4.png",
+            "title": "lalalalla",
+            "name": "Shoo Phar Dhie",
+            "job": "CEO"
+        },
+        {
+            "id": 6,
+            "nav_logo": "user_image_5.png",
+            "image": "user_image_5.png",
+            "title": "lalalalla",
+            "name": "Shoo Phar Dhie",
+            "job": "CEO"
+        },
+        {
+            "id": 7,
+            "nav_logo": "user_image_6.png",
+            "image": "user_image_6.png",
+            "title": "lalalalla",
+            "name": "Shoo Phar Dhie",
+            "job": "CEO"
+        },
+        {
+            "id": 8,
+            "nav_logo": "user_image_7.png",
+            "image": "OurTeams_image_7.png",
+            "title": "lalalalla",
+            "name": "Shoo Phar Dhie",
+            "job": "CEO"
+        },
+        {
+            "id": 9,
+            "nav_logo": "user_image_8.png",
+            "image": "user_image_8.png",
+            "title": "lalalalla",
+            "name": "Shoo Phar Dhie",
+            "job": "CEO"
+        }
     ]
 }
