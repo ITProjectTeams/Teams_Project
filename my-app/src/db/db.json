@@ -347,7 +347,30 @@
 
   "AboutUs": [
     {
-      "id": 1
+      "id": 1,
+      "image": "about_image_1.png"
+    },
+    {
+      "id": 2,
+      "image":"about_image_2.png"
+    },
+    {
+      "id": 3,
+      "image": "OurTeamsService.png",
+      "title": "High Quality",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
+    },
+    {
+      "id": 4,
+      "image": "OurTeamsService.png",
+      "title": "Professional Designer",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
+    },
+    {
+      "id": 5,
+      "image": "OurTeamsService.png",
+      "title": "The Best Services",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
     }
   ]
 }
