@@ -31,7 +31,7 @@ export default function OurTeams() {
                 return (
                   <React.Fragment key={OurTeams.id}>
                     <div className="div_image">
-                      <img className='Teams_image' src={process.env.PUBLIC_URL + "/images/" + OurTeams.image} alt="" />
+                      <img className='Teams_image' src={process.env.PUBLIC_URL + "/images/" + OurTeams.image} alt="error" />
                     </div>
                   </React.Fragment>
                 )
@@ -60,7 +60,7 @@ export default function OurTeams() {
                 return (
                   <React.Fragment key={OurTeams.id}>
                     <div className="card_image">
-                      <img className='card_image' src={process.env.PUBLIC_URL + "/images/" + OurTeams.image} alt="" />
+                      <img className='card_image' src={process.env.PUBLIC_URL + "/images/" + OurTeams.image} alt="error" />
                       <div className='names'>
                         <h1 key={OurTeams.id}>{OurTeams.name}</h1>
                         <p key={OurTeams.id}>{OurTeams.job}</p>
@@ -93,7 +93,7 @@ export default function OurTeams() {
               return (
                 <React.Fragment>
                   <div className="service_div">
-                    <img className='service_img' src={process.env.PUBLIC_URL + "/images/" + OurTeams.image} alt="" />
+                    <img className='service_img' src={process.env.PUBLIC_URL + "/images/" + OurTeams.image} alt="error" />
                     <h1 key={OurTeams.id}>{OurTeams.title}</h1>
                     <p key={OurTeams.id}>{OurTeams.text}</p>
                   </div>

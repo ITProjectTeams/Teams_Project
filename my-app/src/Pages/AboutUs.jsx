@@ -1,10 +1,10 @@
 import React from 'react'
-import Minimalist from '../Components/Minimalist/Minimalist'
+import AboutUs from '../Components/AboutUs/AboutUs'
 
-export default function   About() {
+export default function About() {
   return (
     <React.Fragment>
-      <Minimalist/>
+      <AboutUs />
     </React.Fragment>
   )
 }

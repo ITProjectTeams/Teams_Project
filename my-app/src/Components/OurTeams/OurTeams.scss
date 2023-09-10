@@ -60,20 +60,25 @@ header {
             width: 282px;
             height: 400px;
             background-color: rgba(44, 56, 120, 1);
+        }
 
-            .names {
-                width: 258px;
-                height: 96px;
-                background-color: rgba(255, 255, 255, 1);
-                position: relative;
-                margin-bottom: 50px;
-                margin: auto;
+        .names {
+            width: 250px;
+            height: 80px;
+            position: absolute;
+            background-color: white;
+            margin: -95px 16px;
 
-                p {
-                    color: rgba(156, 156, 156, 1);
-                }
+            h1{
+                color: black;
+            }
+
+            p{
+                color: rgba(156, 156, 156, 1);
             }
         }
+
+
     }
 }
 
@@ -89,8 +94,10 @@ header {
             height: 295px;
             text-align: center;
 
-            img {
+            .service_img{
                 width: 65px;
+                text-align: center;
+                margin: 0px 163px 0px 163px;
             }
 
             h1 {

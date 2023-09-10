@@ -1,75 +1,15 @@
-.about {
-  margin-top: 160px;
-  margin-bottom: 160px;
-  .top_about {
-    position: relative;
+header {
+  text-align: center;
+  padding-bottom: 90px;
 
-    .user_logo_ {
-      position: absolute;
-      left: 0;
-      bottom: 0;
-    }
-    .about_h3 {
-      display: flex;
-      align-items: center;
+  h1 {
+    font-size: 56px;
+    font-weight: 800;
+    padding-bottom: 30px;
+  }
 
-      position: relative;
-
-      .h3_line {
-        position: absolute;
-        width: 529px;
-        left: 90px;
-      }
-    }
-
-    .about_p {
-      margin-top: 20px;
-      margin-bottom: 60px;
-      p {
-        font-size: 36px;
-      }
-    }
-
-    .header_image_about_row {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      position: relative;
-
-      .about_card_image {
-        .about_image {
-          width: 100%;
-        }
-      }
-
-      .about_card_content {
-        width: 12rem;
-        height: auto;
-        color: rgb(132, 137, 138);
-        margin-left: 94px;
-
-        p {
-          font-size: 18px;
-        }
-
-        button {
-          margin-top: 40px;
-          border: none;
-          color: #fff;
-          display: inline-flex;
-          padding: 14px 32px;
-          align-items: flex-start;
-          background-color: #2C3878;
-          font-weight: 800;
-          transition: all 0.4s;
-          gap: 10px;
-        }
-
-        button:hover{
-          color: #000;
-          background-color: #566093;
-        }
-      }
-    }
+  p{
+    font-size: 18px;
+    font-weight: 400;
   }
 }
