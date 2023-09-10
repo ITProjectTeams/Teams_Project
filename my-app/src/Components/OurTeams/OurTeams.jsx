@@ -87,6 +87,22 @@ export default function OurTeams() {
           </p>
         </div>
 
+        <div className="service_cart">
+          <div className="service_row">
+            {OurTeams.slice(9, 13).map(OurTeams => {
+              return (
+                <React.Fragment>
+                  <div className="service_div">
+                    <img className='service_img' src={process.env.PUBLIC_URL + "/images/" + OurTeams.image} alt="" />
+                    <h1 key={OurTeams.id}>{OurTeams.title}</h1>
+                    <p key={OurTeams.id}>{OurTeams.text}</p>
+                  </div>
+                </React.Fragment>
+              )
+            })}
+          </div>
+        </div>
+
       </div>
 
     </React.Fragment>

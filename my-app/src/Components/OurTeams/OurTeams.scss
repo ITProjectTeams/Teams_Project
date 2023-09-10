@@ -32,19 +32,19 @@ header {
     }
 }
 
-    .TopSection {
+.TopSection {
 
-        h1 {
-            font-size: 36px;
-            font-weight: 600;
-        }
-
-        p {
-            color: rgba(156, 156, 156, 1);
-            padding-top: 24px;
-            padding-bottom: 80px;
-        }
+    h1 {
+        font-size: 36px;
+        font-weight: 600;
     }
+
+    p {
+        color: rgba(156, 156, 156, 1);
+        padding-top: 24px;
+        padding-bottom: 80px;
+    }
+}
 
 .div_card {
 
@@ -69,10 +69,40 @@ header {
                 margin-bottom: 50px;
                 margin: auto;
 
-                p{
+                p {
                     color: rgba(156, 156, 156, 1);
                 }
             }
+        }
+    }
+}
+
+.service_cart {
+
+    .service_row {
+
+        display: flex;
+        justify-content: space-between;
+
+        .service_div {
+            width: 388px;
+            height: 295px;
+            text-align: center;
+
+            img {
+                width: 65px;
+            }
+
+            h1 {
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            p {
+                // width: 334px;
+                color: rgba(156, 156, 156, 1);
+            }
+
         }
     }
 }
