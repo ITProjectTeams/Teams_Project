@@ -1,70 +1,85 @@
 main {
+
   .top_location {
     display: flex;
     align-items: center;
     gap: 20px;
     margin-bottom: 20px;
+
     Hr {
       width: 510px;
     }
   }
+
   .bottom_location {
     display: flex;
     justify-content: space-between;
 
     .location_left {
+
       .visit {
         h1 {
           margin-bottom: 25px;
         }
+
         span {
           color: #999;
         }
       }
-      & > * + * {
+
+      &>*+* {
         margin-top: 40px;
       }
+
       .email {
         h3 {
           margin-bottom: 10px;
         }
+
         span {
           color: #999;
         }
       }
+
       .phone {
         h3 {
           margin-bottom: 10px;
         }
+
         span {
           color: #999;
         }
       }
     }
-    .location_right{
-        display: grid;
-        grid-template-columns: repeat(2, 334px);
-        grid-gap: 40px 60px;
-        .jakarta{
-            p{
-                color: #999;
-            }
+
+    .location_right {
+      display: grid;
+      grid-template-columns: repeat(2, 334px);
+      grid-gap: 40px 60px;
+
+      .jakarta {
+        p {
+          color: #999;
         }
-        .surakarta{
-            p{
-                color: #999;
-            }
+      }
+
+      .surakarta {
+        p {
+          color: #999;
         }
-        .yogyakarta{
-            p{
-                color: #999;
-            }
+      }
+
+      .yogyakarta {
+        p {
+          color: #999;
         }
-        .bandung{
-            p{
-                color: #999;
-            }
+      }
+
+      .bandung {
+        p {
+          color: #999;
         }
+      }
     }
   }
 }
