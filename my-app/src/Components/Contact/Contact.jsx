@@ -1,8 +1,41 @@
-import React from 'react'
+import React, { useState } from 'react';
+import axios from 'axios';
 import "./Contact.scss"
 import ContactLocation from '../ContactLocation/ContactLocation'
 
 export default function Contact() {
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [message, setMessage] = useState("");
+  const botToken = "6452795161:AAFOYii0ygohOebRNaB-kpWO9fqD4j_-ucc";
+
+  const sendTelegramMessage = async () => {
+
+    try {
+      const text = `
+      First Name: ${firstName}
+      Last Name: ${lastName}
+      Email: ${email}
+      Phone Number: ${phoneNumber}
+      Message: ${message}
+    `;
+
+      const response = await axios.post(
+        `https://api.telegram.org/bot${botToken}/sendMessage`,
+        {
+          chat_id: "-1001905649628",
+          text: text,
+        }
+      );
+
+      console.log("Message sent:", response.data);
+    } catch (error) {
+      console.error("Error sending message:", error);
+    }
+  };
+
   return (
     <>
       <main>
@@ -15,28 +48,47 @@ export default function Contact() {
             <div className="top_inputs">
               <label className='input_text'>
                 <span>First Name</span>
-                <input type="text" placeholder='First Name' />
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  value={firstName}
+                  onChange={(e) => setFirstName(e.target.value)} />
               </label>
               <label className='input_text'>
                 <span>Last Name</span>
-                <input type="text" placeholder='Last Name' />
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  value={lastName}
+                  onChange={(e) => setLastName(e.target.value)} />
               </label>
             </div>
             <label className='label'>
               <span>Email</span>
-              <input type="text" placeholder='Email' />
+              <input
+                type="email"
+                placeholder="Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)} />
             </label>
             <label className='label'>
               <span>Phone Number</span>
-              <input type="text" placeholder='Phone Number' />
+              <input
+                type="tel"
+                placeholder="Phone Number"
+                value={phoneNumber}
+                onChange={(e) => setPhoneNumber(e.target.value)} />
             </label>
             <label className="comment">
               <span>Message</span>
-              <input type="text" placeholder='Message' />
+              <input
+                placeholder="Message"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)} />
             </label>
           </div>
           <div className="contact_btn">
-            <button>Send Massage</button>
+            <button onClick={sendTelegramMessage}>Send Massage</button>
           </div>
           <ContactLocation />
         </div>
