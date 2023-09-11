@@ -312,7 +312,7 @@
     {
       "id": 8,
       "nav_logo": "user_image_7.png",
-      "image": "OurTeams_image_7.png",
+      "image": "user_image_7.png",
       "title": "lalalalla",
       "name": "Shoo Phar Dhie",
       "job": "CEO"
@@ -339,6 +339,35 @@
     },
     {
       "id": 12,
+      "image": "OurTeamsService.png",
+      "title": "The Best Services",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
+    }
+  ],
+
+  "AboutUs": [
+    {
+      "id": 1,
+      "image": "about_image_1.png"
+    },
+    {
+      "id": 2,
+      "image":"about_image_2.png"
+    },
+    {
+      "id": 3,
+      "image": "OurTeamsService.png",
+      "title": "High Quality",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
+    },
+    {
+      "id": 4,
+      "image": "OurTeamsService.png",
+      "title": "Professional Designer",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
+    },
+    {
+      "id": 5,
       "image": "OurTeamsService.png",
       "title": "The Best Services",
       "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."

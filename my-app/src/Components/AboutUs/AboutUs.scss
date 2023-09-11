@@ -1,75 +1,117 @@
-.about {
-  margin-top: 160px;
-  margin-bottom: 160px;
-  .top_about {
-    position: relative;
+header {
+  text-align: center;
+  padding-bottom: 90px;
 
-    .user_logo_ {
-      position: absolute;
-      left: 0;
-      bottom: 0;
+  h1 {
+    font-size: 56px;
+    font-weight: 800;
+    padding-bottom: 30px;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+.div_hr {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+
+  .Hr {
+    height: 1px;
+    width: 607px;
+  }
+}
+
+.div_h1 {
+
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+}
+
+.About_cart {
+  padding-top: 60px;
+
+  .About_cart_img {
+    display: flex;
+    justify-content: space-between;
+
+    .cart_image {
+      width: 883px;
     }
-    .about_h3 {
-      display: flex;
-      align-items: center;
+  }
 
-      position: relative;
+  .cart {
+    width: 252px;
+    height: 525px;
+    flex-wrap: wrap;
+    background-color: rgba(44, 56, 120, 1);
+    color: white;
+    text-align: center;
 
-      .h3_line {
-        position: absolute;
-        width: 529px;
-        left: 90px;
+    .cart_1 {
+      padding-top: 60px;
+
+      h1 {
+        font-size: 52px;
+        font-weight: 400;
       }
-    }
 
-    .about_p {
-      margin-top: 20px;
-      margin-bottom: 60px;
       p {
-        font-size: 36px;
+        font-size: 16px;
+        font-weight: 400;
       }
     }
+  }
+}
 
-    .header_image_about_row {
+.bottomSection {
+
+  h1 {
+      font-size: 36px;
+      font-weight: 600;
+  }
+
+  p {
+      color: rgba(156, 156, 156, 1);
+      padding-top: 24px;
+      padding-bottom: 80px;
+  }
+}
+
+.About_cart {
+
+  .About_row {
+
       display: flex;
-      flex-direction: row;
-      align-items: center;
-      position: relative;
+      justify-content: space-between;
 
-      .about_card_image {
-        .about_image {
-          width: 100%;
-        }
+      .About_div {
+          width: 388px;
+          height: 295px;
+          text-align: center;
+
+          .About_img{
+              width: 65px;
+              text-align: center;
+              margin: 0px 163px 0px 163px;
+          }
+
+          h1 {
+              padding-top: 20px;
+              padding-bottom: 20px;
+          }
+
+          p {
+              color: rgba(156, 156, 156, 1);
+          }
+
       }
-
-      .about_card_content {
-        width: 12rem;
-        height: auto;
-        color: rgb(132, 137, 138);
-        margin-left: 94px;
-
-        p {
-          font-size: 18px;
-        }
-
-        button {
-          margin-top: 40px;
-          border: none;
-          color: #fff;
-          display: inline-flex;
-          padding: 14px 32px;
-          align-items: flex-start;
-          background-color: #2C3878;
-          font-weight: 800;
-          transition: all 0.4s;
-          gap: 10px;
-        }
-
-        button:hover{
-          color: #000;
-          background-color: #566093;
-        }
-      }
-    }
   }
 }
