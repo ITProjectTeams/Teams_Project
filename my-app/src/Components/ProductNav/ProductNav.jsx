@@ -31,7 +31,7 @@ export default function ProductNav() {
             <div className="selection">
               <div className="section_content">
                 <h1>02<span>Minimalist</span></h1>
-                <Link to={"/minimalist/"}><img className='array_image' src={Array} alt="" /></Link>
+                <Link to={"minimalist/:mini"}><img className='array_image' src={Array} alt="" /></Link>
               </div>
               <p>the use of simple and limited elements to get the best effect or impression.</p>
             </div>

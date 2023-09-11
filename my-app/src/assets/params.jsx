@@ -1,6 +1,6 @@
 import Home from "../Pages/Home"
 import About from "../Pages/AboutUs"
-import ServicesPg from "../Pages/ServicesPg"
+import Services from "../Pages/ServicesPg"
 import OurTeams from "../Components/OurTeams/OurTeams"
 import Contact from "../Components/Contact/Contact"
 
@@ -19,7 +19,7 @@ export const ParamsArray = [
     {
         id: 2,
         path: "/services/",
-        element: <ServicesPg />
+        element: <Services />
     },
     {
         id: 3,
