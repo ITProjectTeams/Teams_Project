@@ -8,6 +8,7 @@ import About from "./Pages/AboutUs";
 import Services from "./Pages/ServicesPg";
 import ButtonBar from "./Components/ButtonBar/ButtonBar";
 import Minimalist from "./Components/Minimalist/Minimalist";
+import NotFound from "./Pages/NotFound";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/services/" element={<Services />} />
         <Route path="/ourteams/" element={<OurTeams />} />
         <Route path="/contact/" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
         <Route path="minimalist/:mini" element={ <Minimalist />} />
       </Routes>
       <ButtonBar />
