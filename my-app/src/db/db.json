@@ -193,6 +193,24 @@
       "nav_logo": "nav_logo.png",
       "image": "room_image_6.png",
       "title": "lalalalla"
+    },
+    {
+      "id": 33,
+      "image":"services_image_2.png",
+      "title": "Interior design",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
+    },
+    {
+      "id": 34,
+      "image":"services_image_3.png",
+      "title": "Consultant",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
+    },
+    {
+      "id": 35,
+      "image":"services_image_4.png",
+      "title": "construction consultant",
+      "text": "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
     }
   ],
   "users": [

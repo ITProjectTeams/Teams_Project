@@ -2,28 +2,91 @@ import React, { useEffect } from 'react'
 import "./Services.scss"
 import { useState } from 'react'
 import axios from 'axios'
-import HomeService from '../HomeService/HomeService'
+import Hr from "../hr/index"
+import Array from "../images/array.png"
 
 export default function Services() {
-  const [product, setProduct] = useState([])
+  const [products, setProducts] = useState([])
 
   useEffect(() => {
     axios.get(`http://localhost:9000/products`)
-      .then(res => setProduct(res.data))
+      .then(res => setProducts(res.data))
       .catch(err => console.log(err))
   }, [])
   return (
     <React.Fragment>
+
+      <div className="TopHeader">
+        <h1>Services</h1>
+
+        <p>
+          It is a long established fact that a reader will be <br /> distracted by the readable content of a page when <br /> looking at its layout.
+        </p>
+      </div>
+
       <div className="servicee">
         <div className="container">
           <div className="service_row">
-            {product.slice(2, 3).map(product => {
+            {products.slice(2, 3).map(products => {
               return (
-                <React.Fragment key={product.id}>
+                <React.Fragment key={products.id}>
                   <div className="div_image">
-                    <img className='service_image' src={process.env.PUBLIC_URL + "/images/" + product.image} alt="" />
+                    <img className='service_image' src={process.env.PUBLIC_URL + "/images/" + products.image} alt="" />
                   </div>
-                  <HomeService className='service_block' />
+                </React.Fragment>
+              )
+            })}
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="service">
+          <div className="service_">
+            <h3>SERVICE</h3>
+            <Hr className='h3_line' />
+          </div>
+          <div className="about_service">
+            <div className="service_content">
+              <h1>attractive furniture with the best quality.</h1>
+
+              <p>Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.</p>
+            </div>
+          </div>
+          <div className="uls_service">
+            <ul>
+              <li>
+                <h3><span>01</span> <span >Interior Design</span></h3>
+                <img className='array' src={Array} alt="" />
+              </li>
+              <li>
+                <h3><span>01</span> <span >Consultant</span></h3>
+                <img className='array' src={Array} alt="" />
+              </li>
+              <li>
+                <h3><span>01</span> <span >Construction Consultant</span></h3>
+                <img className='array' src={Array} alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="ACHIEVEMENT">
+        <div className="container">
+          <div className="ACHIEVEMENT_row">
+            {products.slice(32, 36).map(products => {
+              return (
+                <React.Fragment key={products.id}>
+                  <div className='div'>
+                    <div className="ACHIEVEMENT_image">
+                      <img className='ACHIEVEMENT_image' src={process.env.PUBLIC_URL + "/images/" + products.image} alt="" />
+                    </div>
+                    <div className="info">
+                      <h1 key={products.id}>{products.title}</h1>
+                      <p key={products.id}>{products.text}</p>
+                    </div>
+                  </div>
                 </React.Fragment>
               )
             })}
@@ -31,7 +94,5 @@ export default function Services() {
         </div>
       </div>
     </React.Fragment>
-
-    
   )
 }
