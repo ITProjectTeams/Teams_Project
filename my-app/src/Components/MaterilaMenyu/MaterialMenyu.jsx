@@ -25,7 +25,7 @@ export default function MaterialMenyu() {
                             <button>See Materials</button>
                         </div>
                         <div className="materials_images_row">
-                            {product.slice(3, 4).map(product => {
+                            {/* {product.slice(3, 4).map(product => {
                                 return (
                                     <React.Fragment key={product.id}>
                                         <div className="materials_image">
@@ -33,7 +33,7 @@ export default function MaterialMenyu() {
                                         </div>
                                     </React.Fragment>
                                 )
-                            })}
+                            })} */}
                             <div className="materials_images">
                                 {product.slice(4, 6).map(product => {
                                     return (

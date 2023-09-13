@@ -1,10 +1,10 @@
 import React from 'react'
-import Services from '../Components/Services/Services'
+import Servis1 from "../Components/servis1/servis"
 
 export default function ServicesPg() {
   return (
     <React.Fragment>
-      <Services />
+      <Servis1 />
     </React.Fragment>
   )
 }

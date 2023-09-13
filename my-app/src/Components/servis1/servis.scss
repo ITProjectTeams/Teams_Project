@@ -1,46 +1,63 @@
-.TopHeader {
+header {
+  text-align: center;
+  padding-bottom: 90px;
+
   h1 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 65px;
-    padding-top: 110px;
+    font-size: 56px;
+    font-weight: 800;
+    padding-bottom: 30px;
   }
 
   p {
     font-size: 18px;
-    font-weight: 500;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 65px;
+    font-weight: 400;
   }
 }
 
-.servicee {
-  // margin-top: 23rem;
-  margin-bottom: 160px;
-  z-index: 0;
+.ACHIEVEMENT {
 
-  .service_ {
-    .service_row {
+  .ACHIEVEMENT_row {
+    display: grid;
+    grid-template-columns: repeat(1.1fr);
+    margin-top: 100px;
 
-      .div_image {
-        .service_image {
-          width: 1076px;
-          height: 682.518px;
-          flex-shrink: 0;
+    .div {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+
+
+      .ACHIEVEMENT_image {
+        width: 746px;
+      }
+
+      .info {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+
+        h1 {
+          font-size: 24px;
+        }
+
+        p {
+          width: 334px;
+          font-size: 18px;
+          font-weight: 400;
+          color: rgba(156, 156, 156, 1);
+          padding-top: 20px;
         }
       }
     }
   }
 }
 
-
 .service {
   display: flex;
   flex-direction: column;
   width: 883px;
   height: 467px;
-  position: absolute;
   top: 120rem;
   left: 7.4rem;
   right: 317px;
@@ -98,45 +115,6 @@
           height: 32px;
           flex-shrink: 0;
           margin-right: 40px;
-        }
-      }
-    }
-  }
-}
-
-.ACHIEVEMENT {
-
-  .ACHIEVEMENT_row {
-    display: grid;
-    grid-template-columns: repeat(1.1fr);
-    margin-top: 100px;
-
-    .div {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 40px;
-      
-
-      .ACHIEVEMENT_image {
-        width: 746px;
-      }
-
-      .info {
-        display: block;
-        justify-content: center;
-        align-items: center;
-        margin-top: 100px;
-
-        h1 {
-          font-size: 24px;
-        }
-
-        p {
-          width: 334px;
-          font-size: 18px;
-          font-weight: 400;
-          color: rgba(156, 156, 156, 1);
-          padding-top: 20px;
         }
       }
     }
