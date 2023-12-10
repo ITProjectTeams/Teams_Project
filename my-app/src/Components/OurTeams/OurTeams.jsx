@@ -35,7 +35,7 @@ export default function OurTeams() {
                     </div>
                   </React.Fragment>
                 )
-              })}
+              })} 
             </div>
             <div className="div_hr">
               <p>Designer </p>

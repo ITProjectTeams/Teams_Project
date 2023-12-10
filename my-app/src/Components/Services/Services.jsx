@@ -40,7 +40,7 @@ export default function Services() {
         </div>
       </div>
 
-      <div className="container">
+      {/* <div className="container">
         <div className="service">
           <div className="service_">
             <h3>SERVICE</h3>
@@ -72,27 +72,23 @@ export default function Services() {
         </div>
       </div>
 
-      <div className="ACHIEVEMENT">
+      <div className="servicee">
         <div className="container">
-          <div className="ACHIEVEMENT_row">
-            {products.slice(32, 36).map(products => {
+          <div className="service_row">
+            {products.slice(2, 3).map(products => {
               return (
                 <React.Fragment key={products.id}>
-                  <div className='div'>
-                    <div className="ACHIEVEMENT_image">
-                      <img className='ACHIEVEMENT_image' src={process.env.PUBLIC_URL + "/images/" + products.image} alt="" />
-                    </div>
-                    <div className="info">
-                      <h1 key={products.id}>{products.title}</h1>
-                      <p key={products.id}>{products.text}</p>
-                    </div>
+                  <div className="div_image">
+                    <img className='service_image' src={process.env.PUBLIC_URL + "/images/" + products.image} alt="" />
                   </div>
                 </React.Fragment>
               )
             })}
           </div>
         </div>
-      </div>
+      </div> */}
+
+
     </React.Fragment>
   )
 }
