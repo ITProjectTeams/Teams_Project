@@ -60,11 +60,11 @@ export default function Services() {
                 <img className='array' src={Array} alt="" />
               </li>
               <li>
-                <h3><span>01</span> <span >Consultant</span></h3>
+                <h3><span>02</span> <span >Consultant</span></h3>
                 <img className='array' src={Array} alt="" />
               </li>
               <li>
-                <h3><span>01</span> <span >Construction Consultant</span></h3>
+                <h3><span>03</span> <span >Construction Consultant</span></h3>
                 <img className='array' src={Array} alt="" />
               </li>
             </ul>
